@@ -10,13 +10,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_02_17_225451) do
+ActiveRecord::Schema.define(version: 2019_02_18_183348) do
 
   create_table "authors", force: :cascade do |t|
     t.string "first_name"
     t.string "last_name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "email"
+    t.string "middle_name"
+    t.datetime "last_activity", default: "2019-02-18 18:36:57"
   end
 
 end
