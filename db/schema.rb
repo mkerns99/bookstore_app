@@ -19,7 +19,7 @@ ActiveRecord::Schema.define(version: 2019_02_18_183348) do
     t.datetime "updated_at", null: false
     t.string "email"
     t.string "middle_name"
-    t.datetime "last_activity", default: "2019-02-18 18:36:57"
+    t.datetime "last_activity", default: "2019-03-03 19:56:40"
   end
 
 end
